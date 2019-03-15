@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BreatheView">
+        <!-- 最内层圆的最小半径 -->
+        <attr name="first_circle_min_radius" format="dimension" />
+        <!-- 最内层圆的最大半径 -->
+        <attr name="first_circle_max_radius" format="dimension" />
+        <!-- 由内向外第二层圆的半径 -->
+        <attr name="second_circle_radius" format="dimension" />
+        <!-- 由内向外第三层圆的半径 -->
+        <attr name="third_circle_radius" format="dimension" />
+        <!-- 呼吸圆最大半径 -->
+        <attr name="breathe_circle_max_radius" format="dimension" />
+        <!-- 最内层圆颜色 -->
+        <attr name="first_circle_color" format="color" />
+        <!-- 由内向外第二层圆的颜色 -->
+        <attr name="second_circle_color" format="color" />
+        <!-- 由内向外第三层圆的颜色 -->
+        <attr name="third_circle_color" format="color" />
+        <!-- 呼吸圆颜色，必须使用半透明颜色 -->
+        <attr name="breathe_circle_color" format="color" />
+        <!-- 呼或吸的时长 -->
+        <attr name="exhale_inhale_duration" format="integer" />
+    </declare-styleable>
+</resources>
