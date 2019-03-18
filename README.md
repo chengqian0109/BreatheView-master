@@ -17,7 +17,7 @@
     }
 ```
 ## <font color="red" face="黑体">**[注]：出于对效果的考虑，呼吸圆的颜色必须设置为半透明，否则会导致程序崩溃，请知晓。**</font>
-## 3. xml布局文件中的简单实用：
+## 3. xml布局文件中的使用：
 ```
     <com.jack.widget.BreatheView
         android:layout_width="wrap_content"
