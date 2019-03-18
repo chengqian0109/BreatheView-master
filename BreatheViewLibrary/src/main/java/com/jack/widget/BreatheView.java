@@ -201,7 +201,7 @@ public class BreatheView extends View implements ValueAnimator.AnimatorUpdateLis
         if (mThirdCircleRadius >= mBreatheCircleMaxRadius) {
             throw new IllegalArgumentException("最内侧第三圆半径比呼吸圆半径大");
         }
-        if (Color.alpha(mBreatheCircleColor) == 1.0f) {
+        if (Color.alpha(mBreatheCircleColor) == 255) {
             // 呼吸圆半径不是半透明效果
             throw new IllegalArgumentException("呼吸圆颜色必须是半透明的");
         }
@@ -481,6 +481,7 @@ public class BreatheView extends View implements ValueAnimator.AnimatorUpdateLis
         int hMode = MeasureSpec.getMode(heightMeasureSpec);
         int wSize;
         int hSize;
+        // 我们希望控件宽高一致，获取宽高可能的最大值（屏幕尽可能可以放得下，不排除特殊情况）
         int max;
         if (wMode == MeasureSpec.AT_MOST && hMode == MeasureSpec.AT_MOST) {
             // 控件宽高均为wrap_content

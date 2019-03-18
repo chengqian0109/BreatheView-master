@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 .setThirdCircleRadius(dp2px(50))
                 .setThirdCircleColor(Color.parseColor("#4CAF50"))
                 .setBreatheCircleMaxRadius(dp2px(100))
-                .setBreatheCircleColor(Color.parseColor("#662196F3"))
+                .setBreatheCircleColor(Color.parseColor("#99F39621"))
                 .start();
     }
 
