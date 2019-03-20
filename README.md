@@ -57,7 +57,7 @@
 |name|format|description|method
 |:---:|:---:|:---:|:---:|
 |first_circle_min_radius|dimension|最内层圆的最小半径|setFirstCircleMinRadius(float minRadius)或setFirstCircleMinRadiusRes(int minRadiusId)
-|first_circle_max_radius|dimension|最内层圆的最大半径|setFirstCircleMaxRadius(float minRadius)或setFirstCircleMaxRadiusRes(int maxRadiusId)
+|first_circle_max_radius|dimension|最内层圆的最大半径|setFirstCircleMaxRadius(float maxRadius)或setFirstCircleMaxRadiusRes(int maxRadiusId)
 |second_circle_radius|dimension|由内向外第二层圆的半径|setSecondCircleRadius(float radius)或setSecondCircleRadiusRes(int radiusId)
 |third_circle_radius|dimension|由内向外第三层圆的半径|setThirdCircleRadius(float radius)或setThirdCircleRadiusRes(int radiusId)
 |breathe_circle_max_radius|dimension|呼吸圆的最大半径|setBreatheCircleMaxRadius(float maxRadius)
